@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@layer utilities {
+    * {
+        scroll-behavior: smooth;
+
+        /* Edge */
+        -ms-overflow-style: none;
+        /* Firefox */
+        scrollbar-width: none;
+        /* Safari & Chrome */
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+}

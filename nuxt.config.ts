@@ -31,14 +31,14 @@ export default defineNuxtConfig({
         "~/assets/css/main.css"
     ],
 
-    nitro: {
-        devProxy: {
-            "/api": {
-                target: "",
-                changeOrigin: true,
-            }
-        }
-    },
+    //nitro: {
+    //    devProxy: {
+    //        "/api": {
+    //            target: "",
+    //            changeOrigin: true,
+    //        }
+    //    }
+    //},
 
     devServer: {
         port: 13579

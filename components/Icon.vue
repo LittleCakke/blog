@@ -9,6 +9,7 @@
 
 <script setup lang="ts">
     import BubbleChat from "~/components/icon/BubbleChat.vue";
+    import Check from "~/components/icon/Check.vue";
     import Copy from "~/components/icon/Copy.vue";
     import DashboardSquare from "~/components/icon/DashboardSquare.vue";
     import Github from "~/components/icon/Github.vue";
@@ -18,6 +19,7 @@
 
     const icons = {
         "bubble-chat": BubbleChat,
+        "check": Check,
         "copy": Copy,
         "dashboard-square": DashboardSquare,
         "github": Github,

@@ -12,7 +12,7 @@
 
                 <top-nav-list-item
                     icon="bubble-chat"
-                    to="/">
+                    to="/contact-me">
                     联系我
                 </top-nav-list-item>
 

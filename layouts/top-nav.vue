@@ -1,6 +1,6 @@
 <template>
     <header
-        :class="$systemStore.bodyScrollTop != 0 && 'shadow-2xl'"
+        :class="$systemStore.bodyScrollTop != 0 ? 'shadow-2xl' : ''"
         class="w-screen h-[75px] border-b border-b-gray-200 duration-200">
         <div
             class="w-full h-full max-w-7xl mx-auto hidden lg:flex items-center justify-between">

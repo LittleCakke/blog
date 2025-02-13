@@ -1,4 +1,5 @@
 export type IconName = "bubble-chat"
+    | "check"
     | "copy"
     | "dashboard-square"
     | "github"

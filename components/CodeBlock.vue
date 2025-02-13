@@ -11,7 +11,8 @@
                 </span>
 
                 <icon
-                    name="copy"
+                    @click="copyToClipboard"
+                    :name="isCopied ? 'check' : 'copy'"
                     class="text-gray-200 cursor-pointer"
                 />
             </div>
@@ -25,7 +26,7 @@
     import Prism from "prismjs";
     import type { CodeType } from "~/type";
 
-    defineProps({
+    let props = defineProps({
         codeType: {
             type: String as () => CodeType,
             required: true
@@ -37,8 +38,28 @@
         }
     });
 
+    let { code } = toRefs(props);
+    let isCopied = ref(false);
+
     nextTick(() =>
     {
         Prism.highlightAll();
     });
+
+    const copyToClipboard = () =>
+    {
+        if (!isCopied.value)
+        {
+            navigator.clipboard.writeText(`${code.value}`);
+
+            message.success("已复制到剪贴板");
+
+            isCopied.value = true;
+
+            setTimeout(() =>
+            {
+                isCopied.value = false;
+            }, 5000);
+        }
+    }
 </script>

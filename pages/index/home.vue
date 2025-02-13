@@ -81,7 +81,7 @@
                         to="/article/axios"
                         subject-color="text-[rgb(90,41,228)]"
                         title="Axios是一个基于Promise的网络请求库，可以用于浏览器和node.js"
-                        content="Axio使用简单，包尺寸小且提供了易于扩展的接口">
+                        content="Axios使用简单，包尺寸小且提供了易于扩展的接口">
                         <template #image>
                             <img
                                 src="~/assets/images/axios-logo.png"

@@ -7,10 +7,3 @@
         </div>
     </nuxt-layout>
 </template>
-
-<script setup lang="ts">
-    onMounted(() =>
-    {
-        navigateTo("/home");
-    });
-</script>

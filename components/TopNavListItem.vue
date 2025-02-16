@@ -2,10 +2,11 @@
     <li
         class="h-full flex items-center">
         <nuxt-link
+            active-class="bg-gray-100"
             class="relative
             py-2
             px-6
-            hover:bg-gray-100
+            hover:bg-gray-200
             duration-200
             rounded
             flex
@@ -47,6 +48,8 @@
 <script setup lang="ts">
     import Icon from "~/components/Icon.vue";
     import type { IconName } from "~/type";
+
+    const route = useRoute();
 
     defineProps({
         to: {

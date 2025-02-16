@@ -7,6 +7,12 @@ export default defineNuxtConfig({
     devtools: { enabled: true },
     pages: true,
 
+    routeRules: {
+        "/": {
+            redirect: "/home"
+        }
+    },
+
     vite: {
         plugins: [
             tailwindcss(),

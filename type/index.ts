@@ -4,6 +4,7 @@ export type IconName = "bubble-chat"
     | "dashboard-square"
     | "github"
     | "home"
+    | "idea"
     | "info";
 
 export type Week = "Mon"

@@ -14,6 +14,7 @@
     import DashboardSquare from "~/components/icon/DashboardSquare.vue";
     import Github from "~/components/icon/Github.vue";
     import Home from "~/components/icon/Home.vue";
+    import Idea from "~/components/icon/Idea.vue";
     import Info from "~/components/icon/Info.vue";
     import type { IconName } from "~/type";
 
@@ -24,6 +25,7 @@
         "dashboard-square": DashboardSquare,
         "github": Github,
         "home": Home,
+        "idea": Idea,
         "info": Info
     }
 

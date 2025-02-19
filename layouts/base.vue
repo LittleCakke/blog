@@ -34,13 +34,7 @@
                 <slot />
             </div>
 
-            <footer
-                class="w-screen bg-gray-50">
-                <div
-                    class="w-screen max-w-7xl mx-auto py-4">
-                    123
-                </div>
-            </footer>
+            <nuxt-layout name="page-footer" />
         </main>
     </section>
 </template>

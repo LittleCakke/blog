@@ -1,7 +1,5 @@
 <template>
-    <div class="container">
-        <!-- -->
-    </div>
+    <nuxt-layout name="base"></nuxt-layout>
 </template>
 
 <script setup lang="ts">

@@ -15,7 +15,8 @@ export type Week = "Mon"
     | "Sat"
     | "Sun";
 
-export type CodeType = "html"
+export type CodeType = ""
+    | "html"
     | "svg"
     | "xml"
     | "css"

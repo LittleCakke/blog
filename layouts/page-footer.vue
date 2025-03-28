@@ -50,7 +50,7 @@
                     <li>
                         <nuxt-link
                             class="text-gray-400 hover:text-gray-600 duration-200"
-                            to="/">
+                            to="/page/home">
                             首页
                         </nuxt-link>
                     </li>
@@ -90,7 +90,7 @@
                     <li>
                         <nuxt-link
                             class="text-gray-400 hover:text-gray-600 duration-200"
-                            to="/contact-me">
+                            to="/page/contact-me">
                             联系我
                         </nuxt-link>
                     </li>
@@ -98,7 +98,7 @@
                     <li>
                         <nuxt-link
                             class="text-gray-400 hover:text-gray-600 duration-200"
-                            to="/about">
+                            to="/page/about">
                             关于
                         </nuxt-link>
                     </li>

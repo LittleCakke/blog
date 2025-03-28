@@ -6,19 +6,19 @@
             <top-nav-list>
                 <top-nav-list-item
                     icon="home"
-                    to="/home">
+                    to="/page/home">
                     首页
                 </top-nav-list-item>
 
                 <top-nav-list-item
                     icon="bubble-chat"
-                    to="/contact-me">
+                    to="/page/contact-me">
                     联系我
                 </top-nav-list-item>
 
                 <top-nav-list-item
                     icon="info"
-                    to="/about">
+                    to="/page/about">
                     关于
                 </top-nav-list-item>
             </top-nav-list>

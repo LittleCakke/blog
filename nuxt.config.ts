@@ -7,11 +7,11 @@ export default defineNuxtConfig({
     devtools: { enabled: true },
     pages: true,
 
-    routeRules: {
-        "/": {
-            redirect: "/home"
-        }
-    },
+    // routeRules: {
+    //     "/": {
+    //         redirect: "/home"
+    //     }
+    // },
 
     vite: {
         plugins: [
